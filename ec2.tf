@@ -9,7 +9,7 @@ resource "aws_security_group" "Roboshop_all" {
   description = "Allow TLS inbound traffic and all outbound traffic"
 
   tags = {
-    Name = "allow_tls"
+    Name = "Roboshop_all"
   }
 }
 
